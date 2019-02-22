@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+    margin-top: 5rem;
+}
+
+header, .terminal, main{
+    max-width: 700px;
+    padding: 1rem;
+    margin: 2rem auto;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+}
+header p{
+    margin: 1rem 0;
+}
+
+.terminal{
+    color: #f1f1f1;
+    background-color: #404;
+    font-size: 14pt;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    //box-shadow: 0px -1px 12px -2px rgba(0,0,0,0.9);
+    box-shadow: -1rem 1rem 0px 0px #FBF;
+    position: relative;
+}
+.terminal p{
+    margin: 1rem;
+}
+#hello{
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 0;
+    z-index: 1;
+    transform: translateY(calc(-100% + 40px));
+    max-height: 200px;
+}
+.ls a{
+    color: #4392f1;
+    padding-left: 2rem;
+}
+.ls a:visited{
+    color: #c543f1;
+}
+.ls a.selected{
+    color: #f1e243;
+}
+span.file{
+    color: #e1e1e1;
+    padding-left: 2rem;
+}
+#cursor{
+    font-size: 14pt;
+    vertical-align: text-bottom;
+}
+
+/* Let us begin */
+
+h1, h2, h3, h4{
+    margin: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+h4{
+    font-size: 1rem;
+}
+
+p{
+    margin: 1rem 2rem;
+    line-height: 1.2rem;
+}
+
+ul, ol{
+    margin: 1rem 2rem;
+    padding-left: 2rem;
+}
+
+img{
+    display: block;
+    margin: 1rem auto;
+    max-height: 15rem;
+    max-width: calc(100% - 4rem);
+}
+
+img.floaty{
+    margin: 1rem;
+    float: right;
+}
+
+.clearfix{
+    width: 100%;
+    clear: both;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #4045;
+    margin: -0.25rem 1rem;
+}
+
+@media (max-width:600px) {
+    #hello{
+        transform: translateY(calc(-100% + 12px));
+        max-height: 100px;
+    }
+}
