@@ -6,7 +6,7 @@ body{
     font-family: 'Inconsolata', monospace;
 }
 
-header, .terminal, main{
+header, .terminal, main, footer{
     max-width: 700px;
     padding: 1rem;
     margin: 3rem auto;
@@ -35,7 +35,7 @@ header{
     right: 1rem;
     top: 0;
     z-index: 1;
-    transform: translateY(calc(-100% + 40px));
+    transform: translateY(calc(-100% + 40.2px));
     max-height: 200px;
 }
 .ls a{
@@ -114,4 +114,13 @@ hr{
         transform: translateY(calc(-100% + 12px));
         max-height: 100px;
     }
+}
+
+footer{
+    margin: 0 auto;
+    color: #666;
+}
+footer p{
+    font-size: 10pt;
+    line-height: 1;
 }
