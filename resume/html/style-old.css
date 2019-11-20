@@ -14,7 +14,7 @@ body {
   width: 612pt;
   height: 792pt;
   background-color: white;
-  padding: 0 0.5in;
+  padding: 0 1in;
   box-sizing: border-box;
   border-top: 4px solid #2000AE;
   border-bottom: 4px solid #2000AE;
@@ -55,7 +55,7 @@ hr {
   margin-bottom: 1.25em;
 }
 .row .title {
-  width: 7em;
+  width: 7rem;
   flex-shrink: 0;
   font-size: 1.2em;
   font-weight: 900;
